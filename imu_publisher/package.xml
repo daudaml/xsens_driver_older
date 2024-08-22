@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>imu_publisher</name>
+  <version>0.0.0</version>
+  <description>The imu_publisher package</description>
+  <maintainer email="dawoodahmed@todo.todo">Dawood Ahmed</maintainer>
+  <license>TODO</license>
+
+  <!-- Replace catkin with ament_cmake -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Replace ROS1 dependencies with ROS2 equivalents -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+
+  <!-- Export section remains unchanged for most cases -->
+  <export>
+    <!-- Necessary for ament_cmake packages -->
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
